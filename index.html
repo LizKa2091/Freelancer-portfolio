@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Kelvin</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header main-container" id="header-menu">
+            <div class="header__logo" id="header__logo">
+                <a href="#"><img src="images/logo.png" alt="Kelvin"></a>
+            </div>
+            <nav class="pc-nav" id='pc-nav'>
+                <ul>
+                    <li><a class='nav__link' href="#">Home</a></li>
+                    <li><a class='nav__link' href="#works">Works</a></li>
+                    <li><a class='nav__link' href="#services">Services</a></li>
+                    <li><a class='nav__link' href="#">About</a></li>
+                    <li><a class='nav__link' href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile-nav" id="mobile-nav">
+                <div id="mobile-nav__list">
+                    <ul>
+                        <li><a class='nav__link' href="#">Home</a></li>
+                        <li><a class='nav__link' href="#works">Works</a></li>
+                        <li><a class='nav__link' href="#services">Services</a></li>
+                        <li><a class='nav__link' href="#">About</a></li>
+                        <li><a class='nav__link' href="#contacts">Contacts</a></li>   
+                    </ul>
+                </div>
+                <div id="mobile-nav__clickable">
+                    <button id='mobile-nav__button' onclick='mobileNavisVisible()' style="width: 33px;"></button>
+                </div>
+            </nav>
+        </div>
+        <div class="intro main-container">
+            <div class="intro-left">
+                <h1>Kelvin Kramer Designer & Developer</h1>
+                <p>I’m a portrait, fashion and lifestyle photographer living In New York City. 
+                During my thirteen year tenure here.</p>
+            </div>
+            <div class="intro-right">
+                <img src="images/man.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="main-container" id="services">
+        <div class="section__card card1">
+            <h3>UI/UX design</h3>
+            <p>Our design is translated into comprehensive digital environments 
+                built on latest development standards</p>
+        </div>
+        <div class="section__card card2">
+            <h3>Development</h3>
+            <p>Our design is translated into comprehensive digital environments 
+                built on latest development standards</p>
+        </div>
+        <div class="section__card card3">
+            <h3>Software testing</h3>
+            <p>Our design is translated into comprehensive digital environments 
+                built on latest development standards</p>
+        </div>
+    </section>
+    <section class="portfolio" id="works">
+        <div class="extra-container">
+            <h3>Portfolio</h3>
+            <div class="img1">
+                <img src="images/portfolio1.jpeg" alt="portfolio1">
+            </div>
+            <h4><a href="#">Online fashion store - Homepage</a></h4>
+            <div class="img2">
+                <img src="images/portfolio2.jpeg" alt="portfolio2">
+            </div>
+            <h4><a href="#">Reebok Store - Concept</a></h4>
+            <div class="img3">
+                <img src="images/portfolio3.jpeg" alt="portfolio3">
+            </div>
+            <h4><a href="#">Braun Landing Page - Concept</a></h4>
+        </div>
+    </section>
+    <footer class="main-container" id="contacts">
+        <h3>Contacts</h3>
+        <p>Want to know more or just chat? You are welcome!</p>
+        <button>Send message</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
